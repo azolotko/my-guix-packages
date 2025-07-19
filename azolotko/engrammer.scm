@@ -1,4 +1,4 @@
-(define-module (my-packages engrammer)
+(define-module (azolotko engrammer)
   #:use-module (guix packages)
   #:use-module (gnu packages)
   #:use-module (gnu packages xorg)
@@ -16,5 +16,5 @@
     (source
      (origin
        (inherit (package-source xkeyboard-config))
-       (patches (search-patches "my-packages/engrammer.patch"))))
+       (patches (search-patches "azolotko/patches/xkeyboard-config.patch"))))
     (synopsis "X keyboard configuration database with Engrammer layout")))
