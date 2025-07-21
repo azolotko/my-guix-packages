@@ -19,6 +19,8 @@ Then, `guix pull`.
 
 ## Packages
 
+`#:use-module (azolotko engrammer)`
+
 ### xkeyboard-config-with-engrammer
 
 [xkeyboard-config](https://packages.guix.gnu.org/packages/xkeyboard-config) patched to include the [Engrammer - Arno's Engram layout for programmers](https://github.com/sunaku/engrammer).
